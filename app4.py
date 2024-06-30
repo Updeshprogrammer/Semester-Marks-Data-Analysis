@@ -20,7 +20,7 @@ st.markdown("""
 # Sidebar menu
 with st.sidebar:
     st.header("Menu")
-    option = st.selectbox("Choose a student", ("Updesh Kushwaha", "Shubham Kumawat", "Narendra Singh","Urvashi_Bhardwaj","Adit_Yadav"))
+    option = st.selectbox("Choose a student", ("Shubham Kumawat", "Narendra Singh","Urvashi_Bhardwaj","Adit_Yadav"))
 
 # Title
 st.title(option)
